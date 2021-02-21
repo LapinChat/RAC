@@ -1,0 +1,1 @@
+DROP DATABASE IF EXISTS regroupement00q7;
