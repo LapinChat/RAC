@@ -1,0 +1,711 @@
+{
+  "cols": [
+    "log_date",
+    "quadcopter_id",
+    "part_id",
+    "logpartaction_id",
+    "note"
+  ],
+  "data": [
+    [
+      "2020-08-15 03:05:33",
+      65,
+      "PARTCALCULATION",
+      1,
+      "Pellentesque ultricies dignissim"
+    ],
+    [
+      "2020-10-04 07:37:43",
+      88,
+      "PARTCALCULATION",
+      3,
+      "accumsan sed, facilisis vitae, orci. Phasellus dapibus quam"
+    ],
+    [
+      "2021-07-12 12:16:00",
+      56,
+      "PARTCALCULATION",
+      1,
+      "ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem"
+    ],
+    [
+      "2020-06-06 23:00:21",
+      100,
+      "PARTCALCULATION",
+      1,
+      "accumsan convallis, ante lectus convallis est, vitae"
+    ],
+    [
+      "2020-02-19 18:06:00",
+      31,
+      "PARTCALCULATION",
+      2,
+      "orci luctus et"
+    ],
+    [
+      "2020-05-29 10:37:26",
+      28,
+      "PARTCALCULATION",
+      1,
+      "ut"
+    ],
+    [
+      "2021-11-26 15:47:28",
+      86,
+      "PARTCALCULATION",
+      3,
+      "dolor. Nulla semper tellus id nunc interdum feugiat. Sed nec"
+    ],
+    [
+      "2020-05-21 00:17:43",
+      54,
+      "PARTCALCULATION",
+      1,
+      "dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum."
+    ],
+    [
+      "2020-05-27 12:17:40",
+      28,
+      "PARTCALCULATION",
+      3,
+      "non"
+    ],
+    [
+      "2021-05-19 23:04:55",
+      46,
+      "PARTCALCULATION",
+      1,
+      "Cum sociis"
+    ],
+    [
+      "2021-03-02 00:12:31",
+      99,
+      "PARTCALCULATION",
+      2,
+      "commodo hendrerit. Donec porttitor tellus non magna. Nam ligula"
+    ],
+    [
+      "2021-10-08 06:28:24",
+      74,
+      "PARTCALCULATION",
+      1,
+      "viverra. Donec tempus,"
+    ],
+    [
+      "2021-10-08 03:45:42",
+      37,
+      "PARTCALCULATION",
+      3,
+      "eu lacus. Quisque imperdiet,"
+    ],
+    [
+      "2020-03-19 07:41:25",
+      21,
+      "PARTCALCULATION",
+      3,
+      "Lorem ipsum dolor sit"
+    ],
+    [
+      "2021-08-12 13:22:31",
+      75,
+      "PARTCALCULATION",
+      2,
+      "luctus felis purus ac tellus. Suspendisse sed"
+    ],
+    [
+      "2020-08-15 15:19:30",
+      35,
+      "PARTCALCULATION",
+      2,
+      "orci sem eget massa. Suspendisse eleifend."
+    ],
+    [
+      "2020-07-19 12:43:29",
+      81,
+      "PARTCALCULATION",
+      1,
+      "natoque penatibus et magnis dis parturient montes, nascetur"
+    ],
+    [
+      "2020-07-19 01:22:42",
+      23,
+      "PARTCALCULATION",
+      2,
+      "risus. Donec egestas. Duis ac arcu. Nunc mauris. Morbi"
+    ],
+    [
+      "2021-10-05 18:41:53",
+      77,
+      "PARTCALCULATION",
+      3,
+      "diam luctus lobortis. Class aptent taciti"
+    ],
+    [
+      "2021-05-28 09:15:03",
+      31,
+      "PARTCALCULATION",
+      3,
+      "tellus. Phasellus elit pede, malesuada vel,"
+    ],
+    [
+      "2021-02-17 09:08:51",
+      92,
+      "PARTCALCULATION",
+      1,
+      "luctus lobortis. Class aptent"
+    ],
+    [
+      "2021-04-21 11:53:38",
+      60,
+      "PARTCALCULATION",
+      2,
+      "nisi dictum augue malesuada malesuada. Integer id magna et"
+    ],
+    [
+      "2020-12-04 03:46:44",
+      92,
+      "PARTCALCULATION",
+      2,
+      "lobortis, nisi nibh lacinia orci, consectetuer euismod est"
+    ],
+    [
+      "2021-11-12 10:22:17",
+      3,
+      "PARTCALCULATION",
+      2,
+      "lectus"
+    ],
+    [
+      "2021-03-02 11:19:23",
+      86,
+      "PARTCALCULATION",
+      2,
+      "lorem ipsum sodales purus,"
+    ],
+    [
+      "2020-03-26 00:06:56",
+      17,
+      "PARTCALCULATION",
+      2,
+      "auctor ullamcorper, nisl arcu"
+    ],
+    [
+      "2021-04-03 19:50:30",
+      93,
+      "PARTCALCULATION",
+      2,
+      "luctus ut, pellentesque eget, dictum"
+    ],
+    [
+      "2021-09-07 05:26:20",
+      52,
+      "PARTCALCULATION",
+      2,
+      "Aenean eget magna. Suspendisse tristique neque venenatis lacus. Etiam"
+    ],
+    [
+      "2020-08-22 06:53:37",
+      94,
+      "PARTCALCULATION",
+      1,
+      "et netus et malesuada fames ac"
+    ],
+    [
+      "2022-02-03 02:09:14",
+      72,
+      "PARTCALCULATION",
+      2,
+      "libero. Morbi accumsan laoreet ipsum. Curabitur consequat, lectus sit"
+    ],
+    [
+      "2021-02-06 18:52:12",
+      6,
+      "PARTCALCULATION",
+      2,
+      "tempor diam dictum sapien. Aenean massa."
+    ],
+    [
+      "2021-04-22 00:30:18",
+      86,
+      "PARTCALCULATION",
+      3,
+      "amet luctus vulputate, nisi"
+    ],
+    [
+      "2021-12-27 17:19:54",
+      27,
+      "PARTCALCULATION",
+      1,
+      "amet lorem semper auctor. Mauris vel"
+    ],
+    [
+      "2021-10-16 07:15:33",
+      4,
+      "PARTCALCULATION",
+      2,
+      "amet luctus vulputate, nisi sem semper"
+    ],
+    [
+      "2020-08-20 07:55:10",
+      91,
+      "PARTCALCULATION",
+      3,
+      "erat volutpat. Nulla dignissim. Maecenas ornare egestas ligula."
+    ],
+    [
+      "2020-06-22 06:03:04",
+      68,
+      "PARTCALCULATION",
+      1,
+      "sollicitudin a, malesuada"
+    ],
+    [
+      "2020-08-14 21:45:48",
+      50,
+      "PARTCALCULATION",
+      3,
+      "posuere, enim"
+    ],
+    [
+      "2020-02-22 00:20:43",
+      21,
+      "PARTCALCULATION",
+      1,
+      "Nullam velit dui, semper et,"
+    ],
+    [
+      "2020-06-28 17:42:32",
+      11,
+      "PARTCALCULATION",
+      2,
+      "pede."
+    ],
+    [
+      "2020-10-29 23:37:07",
+      51,
+      "PARTCALCULATION",
+      2,
+      "dolor vitae dolor. Donec fringilla. Donec"
+    ],
+    [
+      "2020-09-28 09:12:37",
+      20,
+      "PARTCALCULATION",
+      3,
+      "Ut tincidunt orci quis lectus."
+    ],
+    [
+      "2020-06-05 02:01:23",
+      1,
+      "PARTCALCULATION",
+      1,
+      "gravida nunc sed pede. Cum"
+    ],
+    [
+      "2021-08-02 10:34:57",
+      66,
+      "PARTCALCULATION",
+      3,
+      "a, scelerisque sed, sapien. Nunc pulvinar arcu"
+    ],
+    [
+      "2021-12-04 08:57:54",
+      27,
+      "PARTCALCULATION",
+      3,
+      "hendrerit neque. In ornare sagittis felis."
+    ],
+    [
+      "2022-01-21 07:12:19",
+      60,
+      "PARTCALCULATION",
+      1,
+      "justo"
+    ],
+    [
+      "2021-11-24 23:22:46",
+      51,
+      "PARTCALCULATION",
+      2,
+      "nec quam. Curabitur vel lectus. Cum sociis natoque"
+    ],
+    [
+      "2021-09-25 20:08:06",
+      11,
+      "PARTCALCULATION",
+      3,
+      "Curabitur egestas nunc sed libero."
+    ],
+    [
+      "2021-02-08 13:44:37",
+      10,
+      "PARTCALCULATION",
+      2,
+      "eget mollis lectus pede et risus. Quisque"
+    ],
+    [
+      "2021-06-20 03:39:04",
+      21,
+      "PARTCALCULATION",
+      2,
+      "sem magna nec quam. Curabitur vel lectus. Cum"
+    ],
+    [
+      "2020-03-17 15:57:52",
+      71,
+      "PARTCALCULATION",
+      1,
+      "mattis. Cras eget nisi dictum augue malesuada malesuada. Integer id"
+    ],
+    [
+      "2020-07-08 19:11:26",
+      47,
+      "PARTCALCULATION",
+      1,
+      "tristique neque venenatis lacus. Etiam"
+    ],
+    [
+      "2021-01-21 14:23:26",
+      43,
+      "PARTCALCULATION",
+      2,
+      "iaculis quis,"
+    ],
+    [
+      "2021-09-29 08:30:38",
+      53,
+      "PARTCALCULATION",
+      3,
+      "Proin velit. Sed malesuada augue ut lacus. Nulla tincidunt, neque"
+    ],
+    [
+      "2022-01-25 07:28:59",
+      65,
+      "PARTCALCULATION",
+      1,
+      "at, velit. Cras lorem"
+    ],
+    [
+      "2021-06-23 04:38:34",
+      21,
+      "PARTCALCULATION",
+      2,
+      "fringilla mi lacinia mattis. Integer eu lacus."
+    ],
+    [
+      "2021-08-15 10:30:46",
+      49,
+      "PARTCALCULATION",
+      1,
+      "ut, pharetra sed, hendrerit a, arcu."
+    ],
+    [
+      "2020-09-20 12:03:48",
+      69,
+      "PARTCALCULATION",
+      3,
+      "metus. In nec orci. Donec nibh. Quisque nonummy"
+    ],
+    [
+      "2021-03-01 10:33:33",
+      31,
+      "PARTCALCULATION",
+      1,
+      "dictum sapien. Aenean massa. Integer vitae nibh. Donec"
+    ],
+    [
+      "2020-09-09 11:23:24",
+      98,
+      "PARTCALCULATION",
+      1,
+      "aliquet,"
+    ],
+    [
+      "2020-04-07 22:48:35",
+      70,
+      "PARTCALCULATION",
+      1,
+      "urna. Nullam lobortis quam a felis ullamcorper"
+    ],
+    [
+      "2021-12-23 18:19:53",
+      57,
+      "PARTCALCULATION",
+      2,
+      "dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula"
+    ],
+    [
+      "2021-01-30 13:43:17",
+      86,
+      "PARTCALCULATION",
+      2,
+      "elementum at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu"
+    ],
+    [
+      "2020-12-07 16:17:47",
+      65,
+      "PARTCALCULATION",
+      2,
+      "nonummy ut, molestie in,"
+    ],
+    [
+      "2021-09-17 10:12:28",
+      41,
+      "PARTCALCULATION",
+      2,
+      "nulla ante, iaculis nec, eleifend non, dapibus rutrum,"
+    ],
+    [
+      "2021-05-26 20:20:05",
+      82,
+      "PARTCALCULATION",
+      3,
+      "congue a, aliquet vel, vulputate eu, odio. Phasellus"
+    ],
+    [
+      "2020-11-15 02:19:35",
+      73,
+      "PARTCALCULATION",
+      2,
+      "eget tincidunt dui augue eu tellus. Phasellus elit pede,"
+    ],
+    [
+      "2020-05-22 20:26:22",
+      35,
+      "PARTCALCULATION",
+      2,
+      "nulla. Integer vulputate, risus a ultricies adipiscing, enim mi"
+    ],
+    [
+      "2020-07-17 22:04:45",
+      38,
+      "PARTCALCULATION",
+      2,
+      "Vivamus non lorem vitae odio"
+    ],
+    [
+      "2020-08-03 04:58:54",
+      99,
+      "PARTCALCULATION",
+      2,
+      "convallis dolor. Quisque"
+    ],
+    [
+      "2021-08-04 13:13:43",
+      77,
+      "PARTCALCULATION",
+      1,
+      "id magna et ipsum cursus vestibulum. Mauris magna. Duis"
+    ],
+    [
+      "2020-11-04 23:58:44",
+      41,
+      "PARTCALCULATION",
+      1,
+      "Ut tincidunt vehicula risus. Nulla eget"
+    ],
+    [
+      "2020-02-10 15:39:42",
+      28,
+      "PARTCALCULATION",
+      2,
+      "aliquam, enim nec tempus scelerisque, lorem"
+    ],
+    [
+      "2020-08-04 20:29:50",
+      59,
+      "PARTCALCULATION",
+      3,
+      "aliquam arcu. Aliquam ultrices iaculis odio. Nam interdum"
+    ],
+    [
+      "2022-01-31 09:15:38",
+      12,
+      "PARTCALCULATION",
+      3,
+      "neque"
+    ],
+    [
+      "2020-12-12 16:06:34",
+      92,
+      "PARTCALCULATION",
+      2,
+      "odio. Aliquam vulputate ullamcorper magna. Sed eu eros."
+    ],
+    [
+      "2021-06-10 01:46:37",
+      75,
+      "PARTCALCULATION",
+      1,
+      "Phasellus dolor elit, pellentesque a,"
+    ],
+    [
+      "2020-07-28 17:28:19",
+      65,
+      "PARTCALCULATION",
+      1,
+      "lorem ac risus. Morbi metus. Vivamus euismod urna. Nullam lobortis"
+    ],
+    [
+      "2020-11-17 06:41:40",
+      79,
+      "PARTCALCULATION",
+      1,
+      "pharetra sed, hendrerit a, arcu. Sed et libero."
+    ],
+    [
+      "2020-06-02 16:33:24",
+      98,
+      "PARTCALCULATION",
+      2,
+      "convallis ligula. Donec luctus aliquet odio."
+    ],
+    [
+      "2021-10-24 11:01:51",
+      14,
+      "PARTCALCULATION",
+      2,
+      "tincidunt, nunc ac mattis ornare, lectus ante dictum"
+    ],
+    [
+      "2021-07-08 10:49:49",
+      47,
+      "PARTCALCULATION",
+      1,
+      "Quisque fringilla euismod enim. Etiam gravida molestie arcu. Sed"
+    ],
+    [
+      "2020-06-09 16:50:43",
+      52,
+      "PARTCALCULATION",
+      3,
+      "pede ac urna. Ut tincidunt vehicula risus."
+    ],
+    [
+      "2020-11-21 18:36:06",
+      66,
+      "PARTCALCULATION",
+      2,
+      "hendrerit. Donec porttitor tellus non magna. Nam"
+    ],
+    [
+      "2020-11-26 10:05:06",
+      4,
+      "PARTCALCULATION",
+      2,
+      "mauris elit, dictum eu,"
+    ],
+    [
+      "2021-04-30 16:39:02",
+      28,
+      "PARTCALCULATION",
+      3,
+      "Integer id magna et"
+    ],
+    [
+      "2020-11-26 13:24:14",
+      25,
+      "PARTCALCULATION",
+      1,
+      "Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus."
+    ],
+    [
+      "2021-02-11 07:21:25",
+      58,
+      "PARTCALCULATION",
+      3,
+      "metus sit amet ante. Vivamus non lorem vitae odio"
+    ],
+    [
+      "2021-09-23 19:27:58",
+      18,
+      "PARTCALCULATION",
+      2,
+      "metus vitae velit egestas lacinia."
+    ],
+    [
+      "2021-07-29 16:35:03",
+      60,
+      "PARTCALCULATION",
+      3,
+      "eu odio tristique pharetra. Quisque"
+    ],
+    [
+      "2020-05-28 07:03:02",
+      20,
+      "PARTCALCULATION",
+      1,
+      "Cras interdum. Nunc sollicitudin commodo ipsum."
+    ],
+    [
+      "2021-08-30 23:45:22",
+      94,
+      "PARTCALCULATION",
+      2,
+      "odio sagittis semper. Nam tempor diam dictum"
+    ],
+    [
+      "2020-12-04 04:35:39",
+      51,
+      "PARTCALCULATION",
+      2,
+      "orci luctus et ultrices posuere"
+    ],
+    [
+      "2021-11-22 02:27:23",
+      73,
+      "PARTCALCULATION",
+      2,
+      "ipsum non arcu. Vivamus sit"
+    ],
+    [
+      "2021-09-15 02:39:51",
+      92,
+      "PARTCALCULATION",
+      3,
+      "hymenaeos. Mauris ut quam vel sapien"
+    ],
+    [
+      "2021-04-13 23:43:02",
+      65,
+      "PARTCALCULATION",
+      1,
+      "libero nec ligula consectetuer rhoncus."
+    ],
+    [
+      "2020-11-30 17:51:35",
+      45,
+      "PARTCALCULATION",
+      2,
+      "pede ac urna. Ut tincidunt vehicula risus."
+    ],
+    [
+      "2021-04-08 17:47:56",
+      89,
+      "PARTCALCULATION",
+      1,
+      "risus, at"
+    ],
+    [
+      "2020-05-11 21:21:19",
+      54,
+      "PARTCALCULATION",
+      2,
+      "tristique neque venenatis lacus. Etiam"
+    ],
+    [
+      "2021-08-30 05:53:19",
+      66,
+      "PARTCALCULATION",
+      3,
+      "sed, est. Nunc laoreet lectus quis massa. Mauris"
+    ],
+    [
+      "2021-09-10 14:34:13",
+      66,
+      "PARTCALCULATION",
+      1,
+      "Fusce"
+    ]
+  ]
+}

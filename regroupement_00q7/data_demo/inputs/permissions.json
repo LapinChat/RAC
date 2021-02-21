@@ -1,0 +1,239 @@
+{
+  "cols": [
+    "name",
+    "code",
+    "description"
+  ],
+  "data": [
+    [
+      "Own Profile Read",
+      "own_profile_read",
+      "User can read his own data."
+    ],
+    [
+      "Own Profile Write",
+      "own_profile_write",
+      "User can edit and save his own data."
+    ],
+    [
+      "All Profile Read",
+      "all_profile_read",
+      "Can read all profiles data."
+    ],
+    [
+      "All Profile Write",
+      "all_profile_write",
+      "Can edit and save all profiles data."
+    ],
+    [
+      "Own Address Read",
+      "own_address_read",
+      "User can read his own addresses."
+    ],
+    [
+      "Own Address Write",
+      "own_address_write",
+      "User can edit and save his own addresses."
+    ],
+    [
+      "All Address Read",
+      "all_address_read",
+      "Can read all addresses."
+    ],
+    [
+      "All Address Write",
+      "all_address_write",
+      "Can edit and save all addresses."
+    ],
+    [
+      "Read Address Types",
+      "read_address_types",
+      "Can read address types."
+    ],
+    [
+      "Write Address Types",
+      "write_address_types",
+      "Can edit and save address types"
+    ],
+    [
+      "Read Country",
+      "read_country",
+      "Can read countries"
+    ],
+    [
+      "Write Country",
+      "write_country",
+      "Can edit and save countries"
+    ],
+    [
+      "Own Location Read",
+      "own_location_read",
+      "User can read his own locations."
+    ],
+    [
+      "Own Location Write",
+      "own_location_write",
+      "User can edit and save his own locations."
+    ],
+    [
+      "All Location Read",
+      "all_location_read",
+      "Can read all locations."
+    ],
+    [
+      "All Location Write",
+      "all_location_write",
+      "Can edit and save locations."
+    ],
+    [
+      "Own Log Flight Read",
+      "own_logflight_read",
+      "User can read his own flight logs."
+    ],
+    [
+      "Own Log Flight Write",
+      "own_logflight_write",
+      "User can edit and save his own flight logs."
+    ],
+    [
+      "All Log Flight Read",
+      "all_logflight_read",
+      "Can read all flight logs."
+    ],
+    [
+      "All Log Flight Write",
+      "all_logflight_write",
+      "Can edit and save flight logs."
+    ],
+    [
+      "Own Log Part Read",
+      "own_logpart_read",
+      "User can read his own part logs."
+    ],
+    [
+      "Own Log Part Write",
+      "own_logpart_write",
+      "User can edit and save his own part logs."
+    ],
+    [
+      "All Log Part Read",
+      "all_logpart_read",
+      "Can read all part logs."
+    ],
+    [
+      "All Log Part Write",
+      "all_logpart_write",
+      "Can edit and save part logs."
+    ],
+    [
+      "Read Part Action",
+      "read_partaction",
+      "Can read part actions."
+    ],
+    [
+      "Write Part Action",
+      "write_partaction",
+      "Can edit and save part actions."
+    ],
+    [
+      "Own Part Read",
+      "own_part_read",
+      "User can read his own parts."
+    ],
+    [
+      "Own Part Write",
+      "own_part_write",
+      "User can edit and save his own parts."
+    ],
+    [
+      "All Part Read",
+      "all_part_read",
+      "Can read all parts."
+    ],
+    [
+      "All part Write",
+      "all_part_write",
+      "Can edit and save parts."
+    ],
+    [
+      "Read Part Type",
+      "read_parttype",
+      "Can read part types."
+    ],
+    [
+      "Write Part Type",
+      "write_parttype",
+      "Can edit and save part types."
+    ],
+    [
+      "Read Permission",
+      "read_permission",
+      "Can read permissions."
+    ],
+    [
+      "Write Permission",
+      "write_permission",
+      "Can edit and save permissions."
+    ],
+    [
+      "Own Quadcopter Read",
+      "own_quadcopter_read",
+      "User can read his own quadcopters."
+    ],
+    [
+      "Own Quadcopter Write",
+      "own_quadcopter_write",
+      "User can edit and save his own quadcopters."
+    ],
+    [
+      "All Quadcopter Read",
+      "all_quadcopter_read",
+      "Can read all quadcopterss."
+    ],
+    [
+      "All quadcopter Write",
+      "all_quadcopter_write",
+      "Can edit and save quadcopters."
+    ],
+    [
+      "Read Role",
+      "read_role",
+      "Can read roless."
+    ],
+    [
+      "Write Role",
+      "write_role",
+      "Can edit and save roles."
+    ],
+    [
+      "Read State",
+      "read_state",
+      "Can read states."
+    ],
+    [
+      "Write State",
+      "write_state",
+      "Can edit and save states."
+    ],
+    [
+      "Read User Role",
+      "read_userrole",
+      "Can read user roles."
+    ],
+    [
+      "Write User Role",
+      "write_userrole",
+      "Can edit and save roles."
+    ],
+    [
+      "Read Super Admin",
+      "read_superadmin",
+      "Can read super admin erlated informations."
+    ],
+    [
+      "Write Super Admin",
+      "write_superadmin",
+      "Can edit and save super admin related informations."
+    ]
+  ]
+}

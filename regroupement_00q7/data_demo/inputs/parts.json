@@ -1,0 +1,25 @@
+{
+  "cols": [
+    "line1",
+    "city",
+    "zip",
+    "country_id",
+    "state_id"
+  ],
+  "data": [
+    [
+      "Ap #652-3213 Enim. Avenue",
+      "Santa Cesarea Terme",
+      "0759 ZD",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 275, 2163 At, St.",
+      "San Piero a Sieve",
+      "651915",
+      "COUNTRYID",
+      "STATEID"
+    ]
+  ]
+}

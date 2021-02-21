@@ -1,0 +1,219 @@
+#!/usr/bin/env php
+<?php
+
+$usage = <<<USAGE
+usage: db_generate_sql_inserts [options]
+  options:
+    -i, --input     required    File name: JSON formatted file
+    -o, --output    required    File name: SQL formatted file
+    -t, --tablename required    Table name target
+    -s, --start     optional    Start of linked id
+    -e, --end       optional    End of linked id
+    -l, --linkname  optional    Link name to replace
+    -h, --help                  This usage
+    
+  -s, -e, -l options are optionals but should all be used together.
+  The same number of -s, -e, -l should be present.
+
+USAGE;
+
+$shortOpts = "hi:o:t:s:e:l:";
+$longOpts = [
+    "help",
+    "input:",
+    "output:",
+    "tablename:",
+    "start:",
+    "end:",
+    "linkname"
+];
+$remainingsIndex = null;
+$remainingsArgs = "";
+
+// Get Arguments
+$cmdArgs = getopt($shortOpts, $longOpts, $remainingsIndex);
+$remainingsArgs = array_slice($argv, $remainingsIndex);
+
+// Display Usage/Help if needed
+if (array_key_exists("h", $cmdArgs) || array_key_exists("help", $cmdArgs)) {
+    echo $usage;
+    exit();
+}
+
+// Validation
+
+[$inputArgExist, $inputFilename] = saveArg($cmdArgs, 'i', 'input', "ERROR: An input file should be specified.\n\n");
+[$outputArgExist, $outputFilename] = saveArg($cmdArgs, 'o', 'output',"ERROR: An output file should be specified.\n\n");
+[$tableArgExist, $tableName] = saveArg($cmdArgs, 't', 'table', "ERROR: An table name should be specified.\n\n");
+
+if (!$inputArgExist || !$outputArgExist || !$tableArgExist) {
+    echo "Pleae check usage:\n\n";
+    echo $usage;
+    exit();
+}
+
+[$startArgExist, $start] = saveArg($cmdArgs, 's', 'start');
+[$endArgExist, $end] = saveArg($cmdArgs, 'e', 'end');
+[$linkArgExist, $linkName] = saveArg($cmdArgs, 'l', 'linkname');
+
+$presence = $startArgExist + $endArgExist + $linkArgExist;
+if ($presence != 0 && $presence != 3) {
+    echo "-s, -e, -l options are optionals but should all be used together.";
+    echo "Pleae check usage:\n\n";
+    echo $usage;
+    exit();
+}
+
+$linksArray = false;
+if (is_array($start) || is_array($end) || is_array($linkName)) {
+    if (!is_array($start) || !is_array($end) || !is_array($linkName)) {
+        echo "The same number of -s, -e, -l should be present.";
+        echo "Pleae check usage:\n\n";
+        echo $usage;
+        exit();
+    }
+    if (count($start) != count($end) || count($end) != count($linkName) || count($start) != count($linkName)) {
+        echo "The same number of -s, -e, -l should be present.";
+        echo "Pleae check usage:\n\n";
+        echo $usage;
+        exit();
+    }
+    $linksArray = true;
+}
+
+$distributedLinks = [];
+if ($linksArray) {
+    for ($i = 0; $i < count($start); $i++) {
+        $distributedLinks[] = [];
+        for($j = $start[$i]; $j <= $end[$i]; $j++) {
+            $distributedLinks[$i][] = $j;
+        }
+    }
+} else {
+    $start = [$start];
+    $end = [$end];
+    $linkName = [$linkName];
+    $distributedLinks[] = [];
+    for ($i = $start[0]; $i <= $end[0]; $i++) {
+        $distributedLinks[0][] = $i;
+    }
+}
+
+if (!empty($remainingsArgs)) {
+    echo('INFO: These args were not used: "' . implode(" ", $remainingsArgs) . '"' . "\n");
+    echo("INFO: Command is running anyway...\n");
+}
+
+// File Generation
+$jsonString = @file_get_contents($inputFilename);
+if ($jsonString === false) {
+    echo "ERROR: File $inputFilename could not be opened\n";
+    exit();
+}
+
+$data = json_decode($jsonString,true);
+
+$outputFile = @fopen($outputFilename, 'w');
+if ($outputFile === false ) {
+    echo "ERROR: File $outputFilename could not be created\n";
+    exit();
+}
+
+
+$sqlInsert = <<<INSERT_SQL
+INSERT INTO :TABLE_NAME SET :FIELDS;
+
+INSERT_SQL;
+
+foreach ($data['data'] as $user) {
+    $newUser = str_replace(":TABLE_NAME", $tableName, $sqlInsert);
+    $newData = array_combine($data['cols'], $user);
+    $fields = "";
+
+    $tmpValue = 0;
+    foreach ($newData as $field => $value) {
+        if ($field == 'password') {
+            $value = password_hash($value, PASSWORD_DEFAULT);
+        }
+        if (!empty($linkName) && array_search($value, $linkName) !== false) {
+            $index = array_search($value, $linkName);
+            if (!empty($distributedLinks[$index])) {
+                $value = array_shift($distributedLinks[$index]);
+            } else {
+                try {
+                    $value = random_int($start[$index], $end[$index]);
+                } catch (Exception $e) {
+                    $value = ceil(rand($start[$index], $end[$index]));
+                }
+            }
+        }
+        if (is_bool($value)) {
+            $value = $value ? 'TRUE': 'FALSE';
+        } else {
+            $value = "'" . $value . "'";
+        }
+        if ($tableName == 'logpart' && $field == 'quadcopter_id') {
+            $tmpValue = intval(trim($value, "'"));
+        }
+        if ($field == 'part_id') {
+            $rndVal =(floor(rand(0, 23)) * 100) + $tmpValue;
+            while($rndVal > 2300) {
+                $rndVal = (floor(rand(0, 23)) * 100) + $tmpValue;
+            }
+            $value = $rndVal;
+//            echo $value;
+        }
+
+        $fields .= $field . ' = ' . $value . ', ';
+    }
+    $fields = substr($fields, 0,-2);
+    $newUser = str_replace(":FIELDS", $fields, $newUser);
+    if (!fwrite($outputFile, $newUser)) {
+        echo "ERROR: File $outputFile could not be written to. Command will attempt to close the file and exit.\n";
+        closeFile($outputFile);
+    }
+}
+
+closeFile($outputFile);
+
+// UTILS
+
+function saveArg($args, $opt, $longOpt, $errorMsg = null) {
+    $value = null;
+    $exist = true;
+    if (array_key_exists($opt, $args)) {
+        $value = $args[$opt];
+    }
+    if (array_key_exists($longOpt, $args)) {
+        $value = $args[$longOpt];
+    }
+    if (!$value) {
+        $exist = false;
+        if (!$errorMsg) {
+            echo($errorMsg);
+        }
+    }
+    return [$exist, $value];
+}
+
+function closeFile($handle) {
+    if (!fclose($handle)) {
+        echo "ERROR: File $handle could not be closed.";
+    }
+}
+
+/**
+ * Dump a variable for debug purposes.
+ *
+ * @param $var          Variable to output.
+ * @param bool $simple Type of output.
+ */
+function dump($var, $simple = true)
+{
+    if ($simple) {
+        print_r($var);
+    } else {
+        var_dump($var);
+    }
+    echo("\n");
+}

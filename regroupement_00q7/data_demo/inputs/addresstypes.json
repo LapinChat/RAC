@@ -1,0 +1,28 @@
+{
+  "cols": [
+    "name",
+    "description"
+  ],
+  "data": [
+    [
+      "Shipping",
+      "Use for shipping purposes. Where the package will by sent."
+    ],
+    [
+      "Billing",
+      "Use for billing purposes. Where the Invoice will be sent. Should correspond to the credit card address."
+    ],
+    [
+      "Mail",
+      "Use for general purposes. Ex: Important noticification, marketing, etc."
+    ],
+    [
+      "Gift",
+      "Use for shipping purposes. Where the package/gift will be sent."
+    ],
+    [
+      "Other",
+      "Use for other purposes. Not meant for any specific usage."
+    ]
+  ]
+}

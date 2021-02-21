@@ -1,0 +1,60 @@
+{
+  "cols": [
+    "name",
+    "description"
+  ],
+  "data": [
+    [
+      "Frame",
+      ""
+    ],
+    [
+      "Prop",
+      ""
+    ],
+    [
+      "ESC",
+      ""
+    ],
+    [
+      "Motor",
+      ""
+    ],
+    [
+      "AIO Flight Controller",
+      ""
+    ],
+    [
+      "Radio Receiver",
+      ""
+    ],
+    [
+      "GPS",
+      ""
+    ],
+    [
+      "PDB",
+      ""
+    ],
+    [
+      "Voltage Regulator",
+      ""
+    ],
+    [
+      "Voltage Sensor",
+      ""
+    ],
+    [
+      "Camera",
+      ""
+    ],
+    [
+      "Antenna",
+      ""
+    ],
+    [
+      "Video Transmitter",
+      ""
+    ]
+  ]
+}

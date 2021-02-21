@@ -1,0 +1,20 @@
+{
+  "cols": [
+    "name",
+    "description"
+  ],
+  "data": [
+    [
+      "Added",
+      "Added to the quadcopter"
+    ],
+    [
+      "Removed",
+      "Removed from the quadcopter"
+    ],
+    [
+      "Retired",
+      "Non working / unsecure part flagged as unusable."
+    ]
+  ]
+}

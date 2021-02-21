@@ -1,0 +1,34 @@
+{
+  "cols": [
+    "name",
+    "code",
+    "description"
+  ],
+  "data": [
+    [
+      "Super Admin",
+      "supadmin",
+      "Have access to everything. With great powers comes great responsibilities"
+    ],
+    [
+      "Admin",
+      "admin",
+      "Administer all the system."
+    ],
+    [
+      "Pilot",
+      "pilot",
+      "Normal User"
+    ],
+    [
+      "Authority",
+      "authority",
+      "Access given to an authority to view a pilot log."
+    ],
+    [
+      "Other",
+      "other",
+      "Use for other purposes. Not meant for any specific usage."
+    ]
+  ]
+}

@@ -1,0 +1,711 @@
+{
+  "cols": [
+    "line1",
+    "city",
+    "zip",
+    "country_id",
+    "state_id"
+  ],
+  "data": [
+    [
+      "Ap #652-3213 Enim. Avenue",
+      "Santa Cesarea Terme",
+      "0759 ZD",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 275, 2163 At, St.",
+      "San Piero a Sieve",
+      "651915",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 907, 6096 Lacus. St.",
+      "Grande Cache",
+      "",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #960-3279 Donec Street",
+      "Katav-Ivanovsk",
+      "A2K 1QF",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 104, 8820 Congue. St.",
+      "Enines",
+      "61049",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #783-4709 Non, Ave",
+      "Thorembais-Saint-Trond",
+      "72588",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 729, 1570 Egestas Rd.",
+      "Port Lincoln",
+      "23708",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #274-6944 Pharetra Rd.",
+      "Orp-le-Grand",
+      "3282",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 817, 3698 Integer St.",
+      "Catanzaro",
+      "9389",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 922, 6086 Sit Ave",
+      "Ciudad Valles",
+      "60877",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 537, 1117 Fermentum Av.",
+      "Baidyabati",
+      "1166",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "450-412 Cum Rd.",
+      "Fauvillers",
+      "4044",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #274-323 Quam. Av.",
+      "Mayerthorpe",
+      "4550",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "683-7828 Libero Av.",
+      "Roxboro",
+      "4360",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 687, 5460 Metus. Rd.",
+      "Vilna",
+      "",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 980, 8335 Morbi St.",
+      "Fredericton",
+      "12458",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "484-483 Ligula Rd.",
+      "Zoerle-Parwijs",
+      "995621",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 512, 696 Fermentum Rd.",
+      "Alert Bay",
+      "22757",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #627-8046 Semper Street",
+      "Ipswich",
+      "0395",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "660-6000 Eu Av.",
+      "Tambov",
+      "7172",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #176-2577 Lobortis Street",
+      "Bad Ischl",
+      "53100",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "1521 Viverra. Rd.",
+      "Gibsons",
+      "28884",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "8177 Lorem Avenue",
+      "Chandrapur",
+      "10804-844",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "8264 Eget Road",
+      "Trowbridge",
+      "530261",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 987, 3823 Enim, St.",
+      "Belcarra",
+      "121480",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #641-8120 Dignissim. Av.",
+      "Gilly",
+      "BD52 3XW",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #243-9997 Donec Rd.",
+      "Montoggio",
+      "Z6958",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "1671 Ut Avenue",
+      "Saltillo",
+      "NM1C 9KL",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "269-2387 Tempus Ave",
+      "Habra",
+      "20216",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 219, 4851 Velit Ave",
+      "Marburg",
+      "834757",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #476-9806 Non, St.",
+      "Thiaumont",
+      "57575-86816",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #858-6529 Congue Road",
+      "Castello Tesino",
+      "76910",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "827-1826 Nam Avenue",
+      "Santa Rosa de Cabal",
+      "7248 FS",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 192, 1600 Ante, Ave",
+      "Seborga",
+      "8567",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "998-2441 Mollis. Av.",
+      "Anklam",
+      "",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "1317 Nulla. Avenue",
+      "Laces/Latsch",
+      "48397",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #116-2671 Aliquam St.",
+      "Verkhny Ufaley",
+      "0656 XB",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #493-1776 Vulputate Ave",
+      "Pohang",
+      "361120",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #331-5073 Morbi St.",
+      "Chakwal",
+      "307022",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #532-3647 Est, Rd.",
+      "Berwick-upon-Tweed",
+      "94459-227",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #125-6669 Pede Avenue",
+      "Soledad",
+      "",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "100-6532 Eget Street",
+      "Otegem",
+      "20084",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 459, 9272 Curae; Avenue",
+      "Suwałki",
+      "216993",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 122, 5599 Egestas Avenue",
+      "Bonneville",
+      "KV81 9LP",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "385-646 Donec Ave",
+      "Incourt",
+      "71800",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #285-9740 Eu St.",
+      "Gävle",
+      "24884",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "7006 Auctor Av.",
+      "Sint-Martens-Lennik",
+      "35523",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 221, 193 Vestibulum Street",
+      "Glendale",
+      "950031",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "5545 Mollis Ave",
+      "Fraser-Fort George",
+      "79-670",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "9708 Pede. St.",
+      "Bad Oldesloe",
+      "Z8942",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "5342 Eu Av.",
+      "Moxhe",
+      "712741",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 565, 1711 Faucibus Av.",
+      "Port Alice",
+      "11664-78270",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "756-1544 Eget Rd.",
+      "Sitapur",
+      "115929",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 976, 6688 Tristique Ave",
+      "Hines Creek",
+      "3310",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "183-4773 Purus Av.",
+      "Pontboset",
+      "102529",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "854-793 Enim St.",
+      "Fort Providence",
+      "517744",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #690-2727 Sem St.",
+      "Perth",
+      "9243",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "8152 Erat Avenue",
+      "Lauro de Freitas",
+      "11729-59035",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "371-310 Fusce Ave",
+      "Karimnagar",
+      "Z2977",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "3582 Lacus. Rd.",
+      "Vitry-sur-Seine",
+      "83509",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #565-9499 Tristique St.",
+      "Norman Wells",
+      "",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #551-3841 Laoreet Road",
+      "Salvador",
+      "1671",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "209-1184 Netus Ave",
+      "Paderborn",
+      "23048-481",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "727-5844 Sed Rd.",
+      "Ottignies-Louvain-la-Neuve",
+      "26329",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "4141 Velit. St.",
+      "Maser",
+      "09169",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "3535 Magnis Rd.",
+      "San Fabián",
+      "43227-88953",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "7459 Iaculis Street",
+      "Batiscan",
+      "",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "8503 Mi St.",
+      "Tiltil",
+      "57958",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 521, 2431 Sit St.",
+      "Jamnagar",
+      "4922",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #567-7355 Imperdiet Av.",
+      "South Bend",
+      "",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 714, 4373 Tincidunt, Road",
+      "Siegendorf",
+      "826457",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 398, 7759 Enim Av.",
+      "Worms",
+      "5649",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "8853 Nulla Rd.",
+      "Oudekapelle",
+      "62129",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "4201 Et, Road",
+      "New Westminster",
+      "27465-538",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "7879 Lacus. Road",
+      "Meridian",
+      "51180-44167",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #333-1033 Massa Street",
+      "Landelies",
+      "05647",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #225-4792 Conubia Av.",
+      "Calle Blancos",
+      "Z7240",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #927-8677 Eget Street",
+      "Grandrieu",
+      "5253",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 997, 5342 Nibh Rd.",
+      "Castiglione Messer Raimondo",
+      "V01 2RH",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 477, 8589 Lacus. Rd.",
+      "Buren",
+      "Z2058",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 354, 1681 Lobortis Av.",
+      "Santa Juana",
+      "93254",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #162-2222 Fringilla Road",
+      "San Vicente",
+      "663685",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 410, 9942 Magna, Street",
+      "Astore",
+      "61015",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "845 Ut Rd.",
+      "Beausejour",
+      "2698",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #885-5301 Ullamcorper Rd.",
+      "Ambresin",
+      "Z4712",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 314, 5004 Ullamcorper St.",
+      "Jakarta",
+      "9158",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 560, 3060 Auctor, Av.",
+      "Slijpe",
+      "7747",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 489, 9047 Amet St.",
+      "Punitaqui",
+      "97578-210",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "433-4589 Primis Avenue",
+      "Marentino",
+      "86864-86519",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #737-9373 Metus. Street",
+      "Castello di Godego",
+      "96668",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "Ap #262-4161 Penatibus Rd.",
+      "Southwell",
+      "53315",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "372-4244 Congue Avenue",
+      "HŽron",
+      "43347",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "3023 Sed Av.",
+      "Coalhurst",
+      "42737",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "215-3498 Enim St.",
+      "Orléans",
+      "73954",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 364, 6696 Augue St.",
+      "Habay-la-Neuve",
+      "50-835",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "6542 Mollis Avenue",
+      "Versailles",
+      "629539",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "P.O. Box 324, 1493 Velit Ave",
+      "Glossop",
+      "00448-603",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "5473 Facilisis Rd.",
+      "Oudegem",
+      "OT0H 9YV",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "1345 Libero Road",
+      "Lalbahadur Nagar",
+      "9889",
+      "COUNTRYID",
+      "STATEID"
+    ],
+    [
+      "865-2637 Ipsum Ave",
+      "Hénin-Beaumont",
+      "44996",
+      "COUNTRYID",
+      "STATEID"
+    ]
+  ]
+}
