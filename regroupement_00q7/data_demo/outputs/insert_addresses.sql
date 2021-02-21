@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO address SET line1 = 'Ap #652-3213 Enim. Avenue', city = 'Santa Cesarea Terme', zip = '0759 ZD', country_id = '1', state_id = '1';
 INSERT INTO address SET line1 = 'P.O. Box 275, 2163 At, St.', city = 'San Piero a Sieve', zip = '651915', country_id = '2', state_id = '2';
 INSERT INTO address SET line1 = 'P.O. Box 907, 6096 Lacus. St.', city = 'Grande Cache', zip = '', country_id = '3', state_id = '3';

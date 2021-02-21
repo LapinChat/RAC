@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO logflight SET log_date = '2020-07-10 07:49:39', quadcopter_id = '8', duration = '5718', weather = 'nulla. Cras eu tellus eu augue porttitor interdum. Sed auctor', location_id = '8';
 INSERT INTO logflight SET log_date = '2021-03-13 11:30:00', quadcopter_id = '33', duration = '4531', weather = 'tellus sem mollis dui, in sodales elit erat vitae risus.', location_id = '33';
 INSERT INTO logflight SET log_date = '2020-08-11 03:21:19', quadcopter_id = '14', duration = '5757', weather = 'ullamcorper eu, euismod ac, fermentum vel, mauris. Integer sem', location_id = '14';

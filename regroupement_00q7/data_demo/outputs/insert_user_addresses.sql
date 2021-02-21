@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO user_addresses SET user_id = '1', address_id = '1';
 INSERT INTO user_addresses SET user_id = '2', address_id = '2';
 INSERT INTO user_addresses SET user_id = '3', address_id = '3';

@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO addresstype SET name = 'Shipping', description = 'Use for shipping purposes. Where the package will by sent.';
 INSERT INTO addresstype SET name = 'Billing', description = 'Use for billing purposes. Where the Invoice will be sent. Should correspond to the credit card address.';
 INSERT INTO addresstype SET name = 'Mail', description = 'Use for general purposes. Ex: Important noticification, marketing, etc.';

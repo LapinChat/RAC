@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO state SET name = 'Vlaams-Brabant', code = 'Ada', country_id = '1';
 INSERT INTO state SET name = 'Minas Gerais', code = 'YO', country_id = '2';
 INSERT INTO state SET name = 'Gujarat', code = 'AB', country_id = '3';

@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO part SET name = 'ESC-1', description = 'elit, pretium et, rutrum non, hendrerit id,', parttype_id = '3', quadcopter_id = '1';
 INSERT INTO part SET name = 'ESC-2', description = 'Integer sem elit,', parttype_id = '3', quadcopter_id = '2';
 INSERT INTO part SET name = 'ESC-3', description = 'magnis dis parturient montes,', parttype_id = '3', quadcopter_id = '3';

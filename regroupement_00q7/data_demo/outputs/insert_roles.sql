@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO role SET name = 'Super Admin', code = 'supadmin', description = 'Have access to everything. With great powers comes great responsibilities';
 INSERT INTO role SET name = 'Admin', code = 'admin', description = 'Administer all the system.';
 INSERT INTO role SET name = 'Pilot', code = 'pilot', description = 'Normal User';

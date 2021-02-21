@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO part SET name = 'Video Transmitter-1', description = 'est. Nunc laoreet lectus quis massa. Mauris vestibulum, neque sed', parttype_id = '13', quadcopter_id = '1';
 INSERT INTO part SET name = 'Video Transmitter-2', description = 'volutpat nunc sit amet metus. Aliquam erat volutpat.', parttype_id = '13', quadcopter_id = '2';
 INSERT INTO part SET name = 'Video Transmitter-3', description = 'gravida nunc sed', parttype_id = '13', quadcopter_id = '3';

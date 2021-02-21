@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO permission SET name = 'Own Profile Read', code = 'own_profile_read', description = 'User can read his own data.';
 INSERT INTO permission SET name = 'Own Profile Write', code = 'own_profile_write', description = 'User can edit and save his own data.';
 INSERT INTO permission SET name = 'All Profile Read', code = 'all_profile_read', description = 'Can read all profiles data.';

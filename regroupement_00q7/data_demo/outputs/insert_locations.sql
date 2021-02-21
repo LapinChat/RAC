@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO location SET name = 'nisl.', latitude = '-3.34354', longitude = '-79.64338', note = 'sollicitudin orci sem eget massa. Suspendisse eleifend. Cras sed leo.', user_id = '1';
 INSERT INTO location SET name = 'orci.', latitude = '65.85075', longitude = '28.56822', note = 'tincidunt. Donec vitae erat vel pede blandit congue.', user_id = '2';
 INSERT INTO location SET name = 'purus,', latitude = '-0.31104', longitude = '29.68222', note = 'a neque. Nullam ut', user_id = '3';

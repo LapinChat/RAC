@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO roles_permissions SET role_id = '1', permission_id = '3';
 INSERT INTO roles_permissions SET role_id = '1', permission_id = '4';
 INSERT INTO roles_permissions SET role_id = '1', permission_id = '7';
@@ -28,8 +29,6 @@ INSERT INTO roles_permissions SET role_id = '1', permission_id = '41';
 INSERT INTO roles_permissions SET role_id = '1', permission_id = '42';
 INSERT INTO roles_permissions SET role_id = '1', permission_id = '43';
 INSERT INTO roles_permissions SET role_id = '1', permission_id = '44';
-INSERT INTO roles_permissions SET role_id = '1', permission_id = '45';
-INSERT INTO roles_permissions SET role_id = '1', permission_id = '46';
 INSERT INTO roles_permissions SET role_id = '2', permission_id = '3';
 INSERT INTO roles_permissions SET role_id = '2', permission_id = '4';
 INSERT INTO roles_permissions SET role_id = '2', permission_id = '7';

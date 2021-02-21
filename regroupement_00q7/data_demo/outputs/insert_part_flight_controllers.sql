@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO part SET name = 'AIO Flight Controller-1', description = 'metus. Vivamus euismod urna. Nullam', parttype_id = '5', quadcopter_id = '1';
 INSERT INTO part SET name = 'AIO Flight Controller-2', description = 'nulla', parttype_id = '5', quadcopter_id = '2';
 INSERT INTO part SET name = 'AIO Flight Controller-3', description = 'faucibus leo, in lobortis tellus justo', parttype_id = '5', quadcopter_id = '3';

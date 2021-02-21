@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO quadcopter SET user_id = '1', name = 'quis', description = 'magna, malesuada vel, convallis', registration = '998A0C09-0DD6-18BC-7087-6716574E506D';
 INSERT INTO quadcopter SET user_id = '2', name = 'consequat', description = 'sapien imperdiet ornare. In faucibus. Morbi', registration = '91109893-95B2-94CF-AB56-B3DFABE0E603';
 INSERT INTO quadcopter SET user_id = '3', name = 'metus.', description = 'sed, est. Nunc laoreet lectus', registration = '0435C106-7DDE-C89B-B815-03AE77C1A60C';

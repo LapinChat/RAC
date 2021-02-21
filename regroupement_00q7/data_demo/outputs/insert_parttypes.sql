@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO parttype SET name = 'Frame', description = '';
 INSERT INTO parttype SET name = 'Prop', description = '';
 INSERT INTO parttype SET name = 'ESC', description = '';

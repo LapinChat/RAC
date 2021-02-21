@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO part SET name = 'Antenna-1', description = 'neque sed sem egestas blandit.', parttype_id = '12', quadcopter_id = '1';
 INSERT INTO part SET name = 'Antenna-2', description = 'magnis', parttype_id = '12', quadcopter_id = '2';
 INSERT INTO part SET name = 'Antenna-3', description = 'posuere, enim nisl', parttype_id = '12', quadcopter_id = '3';

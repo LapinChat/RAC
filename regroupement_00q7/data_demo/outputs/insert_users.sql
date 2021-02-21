@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO user SET firstname = 'Gareth', lastname = 'Love', username = 'Maecenas', password = '$2y$10$FwgrTl5t.uRH79zYbPhYue6K1p9lafhAqv.dw9p8IEOy663VbTSwa', is_active = TRUE;
 INSERT INTO user SET firstname = 'Abel', lastname = 'Mclaughlin', username = 'lectus,', password = '$2y$10$3zmp973D39XAaVz4C9aPve.BLOOD8FAkX3CCmeej3twlJUKdzNVMO', is_active = FALSE;
 INSERT INTO user SET firstname = 'Florence', lastname = 'Estrada', username = 'est,', password = '$2y$10$UNmyDjHyKYSuneWE0Vp3VOOzRYW.Yl4axO1gO5nx2WftrSGO1/zOG', is_active = TRUE;

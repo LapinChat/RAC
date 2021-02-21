@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO part SET name = 'Voltage Sensor-1', description = 'id nunc interdum feugiat. Sed nec metus', parttype_id = '10', quadcopter_id = '1';
 INSERT INTO part SET name = 'Voltage Sensor-2', description = 'non, lacinia', parttype_id = '10', quadcopter_id = '2';
 INSERT INTO part SET name = 'Voltage Sensor-3', description = 'Pellentesque habitant morbi tristique senectus et', parttype_id = '10', quadcopter_id = '3';

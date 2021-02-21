@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO address_addresstypes SET address_id = '1', addresstype_id = '1';
 INSERT INTO address_addresstypes SET address_id = '2', addresstype_id = '2';
 INSERT INTO address_addresstypes SET address_id = '3', addresstype_id = '3';

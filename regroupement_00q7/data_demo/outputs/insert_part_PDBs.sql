@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO part SET name = 'PDB-1', description = 'eu, ultrices sit amet, risus. Donec nibh enim, gravida sit', parttype_id = '8', quadcopter_id = '1';
 INSERT INTO part SET name = 'PDB-2', description = 'Aliquam tincidunt, nunc ac mattis', parttype_id = '8', quadcopter_id = '2';
 INSERT INTO part SET name = 'PDB-3', description = 'elit.', parttype_id = '8', quadcopter_id = '3';

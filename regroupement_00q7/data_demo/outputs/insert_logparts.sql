@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO logpart SET log_date = '2020-08-15 03:05:33', quadcopter_id = '65', part_id = 665, logpartaction_id = '1', note = 'Pellentesque ultricies dignissim';
 INSERT INTO logpart SET log_date = '2020-10-04 07:37:43', quadcopter_id = '88', part_id = 988, logpartaction_id = '3', note = 'accumsan sed, facilisis vitae, orci. Phasellus dapibus quam';
 INSERT INTO logpart SET log_date = '2021-07-12 12:16:00', quadcopter_id = '56', part_id = 1356, logpartaction_id = '1', note = 'ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem';

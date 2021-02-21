@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO country SET name = 'Fiji', code = 'BE';
 INSERT INTO country SET name = 'Kiribati', code = 'ZY';
 INSERT INTO country SET name = 'Sri Lanka', code = 'GS';

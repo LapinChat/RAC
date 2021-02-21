@@ -1,3 +1,4 @@
+USE regroupement00q7;
 INSERT INTO part SET name = 'Voltage Regulator-1', description = 'viverra. Donec tempus, lorem fringilla ornare placerat, orci', parttype_id = '9', quadcopter_id = '1';
 INSERT INTO part SET name = 'Voltage Regulator-2', description = 'magna sed dui. Fusce aliquam, enim nec tempus scelerisque,', parttype_id = '9', quadcopter_id = '2';
 INSERT INTO part SET name = 'Voltage Regulator-3', description = 'gravida. Aliquam tincidunt, nunc ac mattis ornare, lectus ante dictum', parttype_id = '9', quadcopter_id = '3';
