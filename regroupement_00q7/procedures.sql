@@ -1,3 +1,5 @@
+USE regroupement00q7;
+
 DELIMITER //
 
 CREATE OR REPLACE PROCEDURE get_role_permissions(
