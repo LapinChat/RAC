@@ -2,18 +2,30 @@
 
 username=""
 request=""
+filename=""
 
 # Get arguments
-while getopts u:r: args
+while getopts u:r:f: args
 do
     case "${args}" in
       u) username=${OPTARG};;
       r) request=${OPTARG};;
+      f) filename=${OPTARG};;
     esac
 done
 
 # Bad usage
-if [ -z "$username" ] || [ -z "$request" ] || { [ "$request" != "create" ] && [ "$request" != "drop" ] && [ "$request" != "add_data" ]; }
+if [ -z "$username" ] || \
+   [ -z "$request" ] || \
+   { [ "$request" != "create" ] && \
+     [ "$request" != "drop" ] && \
+     [ "$request" != "add_data" ] && \
+     [ "$request" != "dump" ] && \
+     [ "$request" != "create_from_dump" ]; } || \
+   { [ "$request" = "dump" ] && \
+     [ -z "$filename" ]; } || \
+   { [ "$request" = "create_from_dump" ] && \
+     [ -z "$filename" ]; }
 then
   # USAGE
   cat<<'USAGE'
@@ -29,6 +41,8 @@ usage: regroupement00q7 -u [mysql_username] -r [request]
     - create
     - drop
     - add_data
+    - dump
+    - create_from_dump
 
 USAGE
 
@@ -40,12 +54,20 @@ else
       mysql -u "$username" -p < createDB.sql
       ;;
     drop)
-      echo "Drop DB"
+      echo "Dropping DB"
       mysql -u "$username" -p < dropDB.sql
       ;;
     add_data)
-      echo "Add demo data"
+      echo "Adding demo data"
       mysql -u "$username" -p < addDemoData.sql
+      ;;
+    dump)
+      echo "Dumping DB"
+      mysqldump -u "$username" -p --databases regroupement00q7 --routines > "$filename"
+      ;;
+    create_from_dump)
+      echo "Creating DB from dump"
+      mysql -u "$username" -p < "$filename"
       ;;
   esac
 fi
