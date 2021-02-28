@@ -29,6 +29,22 @@ CREATE OR REPLACE PROCEDURE get_user_permissions(
         u.id = from_user_id;
 END //
 
+-- User Read permissions
+CREATE OR REPLACE PROCEDURE get_user_permissions_contains(
+    IN from_user_id INT UNSIGNED,
+    IN regexp_string VARCHAR(255)
+) BEGIN
+    SELECT
+        p.name
+    FROM user AS u
+        INNER JOIN user_roles AS ur ON u.id = ur.user_id
+        INNER JOIN roles_permissions AS rp ON ur.role_id = rp.role_id
+        INNER JOIN permission AS p ON rp.permission_id = p.id
+    WHERE
+        u.id = from_user_id
+        AND p.name REGEXP regexp_string;
+END //
+
 -- COUNT TABLES ENTRIES
 CREATE OR REPLACE PROCEDURE count_address()
 BEGIN
