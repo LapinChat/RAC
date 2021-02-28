@@ -17,7 +17,7 @@ END //
 
 -- User permissions
 CREATE OR REPLACE PROCEDURE get_user_permissions(
-    IN from_user_id INT UNSIGNED
+    IN from_user_id BIGINT UNSIGNED
 ) BEGIN
     SELECT
         p.name
@@ -31,7 +31,7 @@ END //
 
 -- User Read permissions
 CREATE OR REPLACE PROCEDURE get_user_permissions_contains(
-    IN from_user_id INT UNSIGNED,
+    IN from_user_id BIGINT UNSIGNED,
     IN regexp_string VARCHAR(255)
 ) BEGIN
     SELECT
@@ -139,7 +139,7 @@ END //
 
 -- User list of quadcopters
 CREATE OR REPLACE PROCEDURE get_user_quadcopters(
-    IN from_user_id INT UNSIGNED
+    IN from_user_id BIGINT UNSIGNED
 ) BEGIN
     SELECT
         *
@@ -151,7 +151,7 @@ END //
 
 -- User most recent flight log
 CREATE OR REPLACE PROCEDURE get_user_most_recent_flight_log(
-    IN from_user_id INT UNSIGNED
+    IN from_user_id BIGINT UNSIGNED
 ) BEGIN
     SELECT
         *
@@ -164,7 +164,7 @@ END //
 
 -- User most oldest flight log
 CREATE OR REPLACE PROCEDURE get_user_oldest_flight_log(
-    IN from_user_id INT UNSIGNED
+    IN from_user_id BIGINT UNSIGNED
 ) BEGIN
     SELECT
         *
@@ -194,6 +194,34 @@ CREATE OR REPLACE PROCEDURE get_users_flight_logs_average(
         OR (AVG(l.duration) = flight_time_seconds AND comparison='=')
         OR (AVG(l.duration) < flight_time_seconds AND comparison='<')
         OR (AVG(l.duration) <= flight_time_seconds AND comparison='<=');
+END //
+
+-- User modify an address
+CREATE OR REPLACE PROCEDURE user_modify_address(
+    IN target_user_id INT UNSIGNED,
+    IN target_address_id INT UNSIGNED,
+    IN new_line1 VARCHAR(255),
+    IN new_line2 VARCHAR(255),
+    IN new_line3 VARCHAR(255),
+    IN new_city VARCHAR(255),
+    IN new_zip VARCHAR(255),
+    IN new_country_id BIGINT UNSIGNED,
+    IN new_state_id BIGINT UNSIGNED
+) BEGIN
+    UPDATE address AS a
+        INNER JOIN user_addresses ua on a.id = ua.address_id
+        INNER JOIN user u on ua.user_id = target_user_id
+    SET
+        a.line1 = new_line1,
+        a.line2 = new_line2,
+        a.line3 = new_line3,
+        a.city = new_city,
+        a.zip = new_zip,
+        a.country_id = new_country_id,
+        a.state_id = new_state_id
+    WHERE
+        a.id = target_address_id;
+
 END //
 
 DELIMITER ;

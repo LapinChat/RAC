@@ -36,6 +36,7 @@ GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE get_user_oldest_flight_l
 GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE get_user_permissions TO rac_admin_role;
 GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE get_user_permissions_contains TO rac_admin_role;
 GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE get_users_flight_logs_average TO rac_admin_role;
+GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE user_modify_address TO rac_admin_role;
 
 -- Application
 CREATE OR REPLACE ROLE rac_application_role;
@@ -67,6 +68,7 @@ GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE get_user_oldest_flight_l
 GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE get_user_permissions TO rac_application_role;
 GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE get_user_permissions_contains TO rac_application_role;
 GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE get_users_flight_logs_average TO rac_application_role;
+GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE user_modify_address TO rac_application_role;
 
 -- Pilot
 CREATE OR REPLACE ROLE rac_pilot_role;
