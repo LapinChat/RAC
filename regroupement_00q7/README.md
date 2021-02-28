@@ -8,8 +8,8 @@ PARTIE A
     - [x] Utilisant une technique de sauvegarde et de restauration de données.
 - [ ] Formuler des requêtes :
     - [ ] D’insertion, de modification et de suppression de données;  
-    - [ ] De sélection (avec jointures sur un minimum de trois tables), incluant des expressions régulières. Les requêtes devront contenir plusieurs clauses (ex. : JOIN, GROUP BY, HAVING).
-    - [ ] Automatiser l’un des traitements de données précédents à l’aide d’un script ou d’une procédure stockée.
+    - [x] De sélection (avec jointures sur un minimum de trois tables), incluant des expressions régulières. Les requêtes devront contenir plusieurs clauses (ex. : JOIN, GROUP BY, HAVING).
+    - [x] Automatiser l’un des traitements de données précédents à l’aide d’un script ou d’une procédure stockée.
     
 PARTIE B
 --------

@@ -169,10 +169,31 @@ CREATE OR REPLACE PROCEDURE get_user_oldest_flight_log(
     SELECT
         *
     FROM logflight AS l
-             INNER JOIN quadcopter AS q ON l.quadcopter_id = q.id
+        INNER JOIN quadcopter AS q ON l.quadcopter_id = q.id
     WHERE q.user_id = from_user_id
     ORDER BY l.log_date ASC
     LIMIT 1;
+END //
+
+-- User get flight log from last days
+CREATE OR REPLACE PROCEDURE get_users_flight_logs_average(
+    IN comparison VARCHAR(2),
+    IN flight_time_seconds INT UNSIGNED
+) BEGIN
+    SELECT
+        u.firstname,
+        u.lastname,
+        AVG(l.duration)
+    FROM logflight AS l
+        INNER JOIN quadcopter AS q ON l.quadcopter_id = q.id
+        JOIN user AS u ON u.id = q.user_id
+    GROUP BY u.firstname, u.lastname
+    HAVING
+        (AVG(l.duration) >= flight_time_seconds AND comparison='>=')
+        OR (AVG(l.duration) > flight_time_seconds AND comparison='>')
+        OR (AVG(l.duration) = flight_time_seconds AND comparison='=')
+        OR (AVG(l.duration) < flight_time_seconds AND comparison='<')
+        OR (AVG(l.duration) <= flight_time_seconds AND comparison='<=');
 END //
 
 DELIMITER ;

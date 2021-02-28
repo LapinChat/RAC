@@ -25,3 +25,4 @@ DROP PROCEDURE IF EXISTS get_user_most_recent_flight_log;
 DROP PROCEDURE IF EXISTS get_user_oldest_flight_log;
 DROP PROCEDURE IF EXISTS get_user_permissions;
 DROP PROCEDURE IF EXISTS get_user_permissions_contains;
+DROP PROCEDURE IF EXISTS get_users_flight_logs_average;
