@@ -28,3 +28,4 @@ DROP PROCEDURE IF EXISTS get_user_permissions_contains;
 DROP PROCEDURE IF EXISTS get_users_flight_logs_average;
 
 DROP PROCEDURE IF EXISTS user_modify_address;
+DROP PROCEDURE IF EXISTS user_delete_address;

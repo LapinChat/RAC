@@ -198,8 +198,8 @@ END //
 
 -- User modify an address
 CREATE OR REPLACE PROCEDURE user_modify_address(
-    IN target_user_id INT UNSIGNED,
-    IN target_address_id INT UNSIGNED,
+    IN target_user_id BIGINT UNSIGNED,
+    IN target_address_id BIGINT UNSIGNED,
     IN new_line1 VARCHAR(255),
     IN new_line2 VARCHAR(255),
     IN new_line3 VARCHAR(255),
@@ -209,8 +209,7 @@ CREATE OR REPLACE PROCEDURE user_modify_address(
     IN new_state_id BIGINT UNSIGNED
 ) BEGIN
     UPDATE address AS a
-        INNER JOIN user_addresses ua on a.id = ua.address_id
-        INNER JOIN user u on ua.user_id = target_user_id
+        INNER JOIN user_addresses ua ON a.id = ua.address_id
     SET
         a.line1 = new_line1,
         a.line2 = new_line2,
@@ -220,8 +219,34 @@ CREATE OR REPLACE PROCEDURE user_modify_address(
         a.country_id = new_country_id,
         a.state_id = new_state_id
     WHERE
-        a.id = target_address_id;
+        a.id = target_address_id
+        AND ua.user_id = target_user_id ;
 
+END //
+
+-- User delete address
+CREATE OR REPLACE PROCEDURE user_delete_address(
+    IN target_user_id BIGINT UNSIGNED,
+    IN target_address_id BIGINT UNSIGNED
+) BEGIN
+    IF EXISTS(
+        SELECT * FROM user_addresses WHERE user_id = target_user_id AND address_id = target_address_id
+        )
+    THEN
+        DELETE FROM
+            user_addresses
+        WHERE
+            user_id = target_user_id
+            AND address_id = target_address_id;
+        DELETE FROM
+            address_addresstypes
+        WHERE
+            address_id = target_address_id;
+        DELETE FROM
+            address
+        WHERE
+            id = target_address_id;
+    END IF;
 END //
 
 DELIMITER ;
