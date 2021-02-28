@@ -1,6 +1,7 @@
 USE regroupement00q7;
 
 DROP PROCEDURE IF EXISTS get_role_permissions;
+
 DROP PROCEDURE IF EXISTS count_address;
 DROP PROCEDURE IF EXISTS count_addresstype;
 DROP PROCEDURE IF EXISTS count_country;
@@ -18,3 +19,5 @@ DROP PROCEDURE IF EXISTS count_state;
 DROP PROCEDURE IF EXISTS count_user;
 DROP PROCEDURE IF EXISTS count_user_addresses;
 DROP PROCEDURE IF EXISTS count_user_roles;
+
+DROP PROCEDURE IF EXISTS get_user_quadcopters;

@@ -94,17 +94,29 @@ END //
 
 CREATE OR REPLACE PROCEDURE count_roles_permissions()
 BEGIN
-    SELECT COUNT(id) FROM roles_permissions;
+    SELECT COUNT(*) FROM roles_permissions;
 END //
 
 CREATE OR REPLACE PROCEDURE count_user_addresses()
 BEGIN
-    SELECT COUNT(id) FROM user_addresses;
+    SELECT COUNT(*) FROM user_addresses;
 END //
 
 CREATE OR REPLACE PROCEDURE count_user_roles()
 BEGIN
-    SELECT COUNT(id) FROM user_roles;
+    SELECT COUNT(*) FROM user_roles;
+END //
+
+-- User list of quadcopters
+CREATE OR REPLACE PROCEDURE get_user_quadcopters(
+    IN from_user_id INT UNSIGNED
+) BEGIN
+    SELECT
+        *
+    FROM
+         quadcopter
+    WHERE
+        user_id = from_user_id;
 END //
 
 DELIMITER ;
