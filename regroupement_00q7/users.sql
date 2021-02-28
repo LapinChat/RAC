@@ -31,6 +31,8 @@ GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE count_user TO rac_admin_
 GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE count_user_addresses TO rac_admin_role;
 GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE count_user_roles TO rac_admin_role;
 GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE get_user_quadcopters TO rac_admin_role;
+GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE get_user_most_recent_flight_log TO rac_admin_role;
+GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE get_user_oldest_flight_log TO rac_admin_role;
 
 -- Application
 CREATE OR REPLACE ROLE rac_application_role;
@@ -56,7 +58,9 @@ GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE count_state TO rac_appli
 GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE count_user TO rac_application_role;
 GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE count_user_addresses TO rac_application_role;
 GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE count_user_roles TO rac_application_role;
-GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE get_quadcopters TO rac_application_role;
+GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE get_user_quadcopters TO rac_application_role;
+GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE get_user_most_recent_flight_log TO rac_application_role;
+GRANT EXECUTE, GRANT OPTION, ALTER ROUTINE ON PROCEDURE get_user_oldest_flight_log TO rac_application_role;
 
 -- Pilot
 CREATE OR REPLACE ROLE rac_pilot_role;

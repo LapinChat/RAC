@@ -119,4 +119,30 @@ CREATE OR REPLACE PROCEDURE get_user_quadcopters(
         user_id = from_user_id;
 END //
 
+-- User most recent flight log
+CREATE OR REPLACE PROCEDURE get_user_most_recent_flight_log(
+    IN from_user_id INT UNSIGNED
+) BEGIN
+    SELECT
+        *
+    FROM logflight AS l
+        INNER JOIN quadcopter AS q ON l.quadcopter_id = q.id
+        WHERE q.user_id = from_user_id
+    ORDER BY l.log_date DESC
+    LIMIT 1;
+END //
+
+-- User most oldest flight log
+CREATE OR REPLACE PROCEDURE get_user_oldest_flight_log(
+    IN from_user_id INT UNSIGNED
+) BEGIN
+    SELECT
+        *
+    FROM logflight AS l
+             INNER JOIN quadcopter AS q ON l.quadcopter_id = q.id
+    WHERE q.user_id = from_user_id
+    ORDER BY l.log_date ASC
+    LIMIT 1;
+END //
+
 DELIMITER ;
