@@ -15,6 +15,20 @@ CREATE OR REPLACE PROCEDURE get_role_permissions(
         r.name = role_name;
 END //
 
+-- User permissions
+CREATE OR REPLACE PROCEDURE get_user_permissions(
+    IN from_user_id INT UNSIGNED
+) BEGIN
+    SELECT
+        p.name
+    FROM user AS u
+        INNER JOIN user_roles AS ur ON u.id = ur.user_id
+        INNER JOIN roles_permissions AS rp ON ur.role_id = rp.role_id
+        INNER JOIN permission AS p ON rp.permission_id = p.id
+    WHERE
+        u.id = from_user_id;
+END //
+
 -- COUNT TABLES ENTRIES
 CREATE OR REPLACE PROCEDURE count_address()
 BEGIN
