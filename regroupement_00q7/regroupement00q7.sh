@@ -30,7 +30,7 @@ then
   # USAGE
   cat<<'USAGE'
 
-usage: regroupement00q7 -u [mysql_username] -r [request]
+usage: regroupement00q7 -u [mysql_username] -r [request] -f [dump_filename]
 
   [mysql_username]: Your mysql username.
     User should have permission to
@@ -43,6 +43,8 @@ usage: regroupement00q7 -u [mysql_username] -r [request]
     - add_data
     - dump
     - create_from_dump
+
+  [dump_filename]: Filename of the dump. Useful only when used with `-r dump`.
 
 USAGE
 

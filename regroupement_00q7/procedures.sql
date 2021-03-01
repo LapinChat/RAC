@@ -221,7 +221,6 @@ CREATE OR REPLACE PROCEDURE user_modify_address(
     WHERE
         a.id = target_address_id
         AND ua.user_id = target_user_id ;
-
 END //
 
 -- User delete address
