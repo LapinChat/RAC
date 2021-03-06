@@ -162,7 +162,7 @@ CREATE OR REPLACE PROCEDURE get_user_most_recent_flight_log(
     LIMIT 1;
 END //
 
--- User most oldest flight log
+-- User oldest flight log
 CREATE OR REPLACE PROCEDURE get_user_oldest_flight_log(
     IN from_user_id BIGINT UNSIGNED
 ) BEGIN
@@ -246,6 +246,18 @@ CREATE OR REPLACE PROCEDURE user_delete_address(
         WHERE
             id = target_address_id;
     END IF;
+END //
+
+-- Part Logs
+CREATE OR REPLACE PROCEDURE logpart_get_action_count(
+    IN log_type VARCHAR(255)
+)
+BEGIN
+    SELECT
+        COUNT(lp.id)
+    FROM logpart AS lp
+        INNER JOIN logpartaction lpa ON lp.logpartaction_id = lpa.id
+    WHERE lpa.name = log_type;
 END //
 
 DELIMITER ;
