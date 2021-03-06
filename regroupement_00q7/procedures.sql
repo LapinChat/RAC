@@ -251,13 +251,24 @@ END //
 -- Part Logs
 CREATE OR REPLACE PROCEDURE logpart_get_action_count(
     IN log_type VARCHAR(255)
-)
-BEGIN
+) BEGIN
     SELECT
         COUNT(lp.id)
     FROM logpart AS lp
         INNER JOIN logpartaction lpa ON lp.logpartaction_id = lpa.id
     WHERE lpa.name = log_type;
+END //
+
+-- Flight Log Count
+CREATE OR REPLACE PROCEDURE logflight_get_yearly(
+    IN year INT UNSIGNED
+) BEGIN
+    SELECT
+        COUNT(id)
+    FROM
+        logflight
+    WHERE
+        YEAR(log_date) = year;
 END //
 
 DELIMITER ;

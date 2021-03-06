@@ -31,3 +31,4 @@ DROP PROCEDURE IF EXISTS user_modify_address;
 DROP PROCEDURE IF EXISTS user_delete_address;
 
 DROP PROCEDURE IF EXISTS logpart_get_action_count;
+DROP PROCEDURE IF EXISTS logflight_get_yearly;
