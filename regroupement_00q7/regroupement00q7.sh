@@ -57,7 +57,7 @@ else
       ;;
     drop)
       echo "Dropping DB"
-      mysql -u "$username" -p < dropDB.sql
+      mysql -u "$username" -p < drop_db/dropDB.sql
       ;;
     add_data)
       echo "Adding demo data"
