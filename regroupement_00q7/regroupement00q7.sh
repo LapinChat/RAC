@@ -53,7 +53,7 @@ else
   case "$request" in
     create)
       echo "Creating DB"
-      mysql -u "$username" -p < createDB.sql
+      mysql -u "$username" -p < create_db/createDB.sql
       ;;
     drop)
       echo "Dropping DB"
