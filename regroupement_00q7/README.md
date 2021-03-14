@@ -1,14 +1,14 @@
 # Regroupement 00q7
 * [Auteur](#auteur)
-* [Liste des fichiers](liste-des-fichiers)
-* [Création de la base de données](création-de-la-base-de-données)
-    * [Pré-requis](pré-requis)
+* [Liste des fichiers](#liste-des-fichiers)
+* [Création de la base de données](#création-de-la-base-de-données)
+    * [Pré-requis](#pré-requis)
     * [Démarrage rapide](#démarrage-rapide)
     * [Étape par étape](#étape-par-étape)
-        1. [Créer la base de données](créer-la-base-de-données)
-        2. [Remplir la base de données](remplir-la-base-de-données)
-* [Effacer la base de données](effacer-la-base-de-données)
-* [Archiver la base de données](archiver-la-base-de-données)
+        1. [Créer la base de données](#créer-la-base-de-données)
+        2. [Remplir la base de données](#remplir-la-base-de-données)
+* [Effacer la base de données](#effacer-la-base-de-données)
+* [Archiver la base de données](#archiver-la-base-de-données)
 
 ## Auteur
 Pierre Tremblay-Thériault  
