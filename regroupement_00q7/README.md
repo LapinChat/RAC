@@ -14,10 +14,10 @@ PARTIE A
 PARTIE B
 --------
 
-- [ ] Utiliser les fonctionnalités de base du chiffrier électronique nécessaire au traitement des données (ex. : référence relative et absolue, format des nombres, alignement, mise en page) pour présenter le rapport;
-- [ ] Effectuer les calculs nécessaires à l’aide des fonctions statistiques (moyenne, médiane, écart-type);
-- [ ] Analyser les résultats obtenus;
-- [ ] Présenter les résultats dans un graphique (ex. : histogramme, à secteurs) en utilisant des outils de représentation (ex. : mise à l’échelle, légende, étiquettes de données).
+- [x] Utiliser les fonctionnalités de base du chiffrier électronique nécessaire au traitement des données (ex. : référence relative et absolue, format des nombres, alignement, mise en page) pour présenter le rapport;
+- [x] Effectuer les calculs nécessaires à l’aide des fonctions statistiques (moyenne, médiane, écart-type);
+- [x] Analyser les résultats obtenus;
+- [x] Présenter les résultats dans un graphique (ex. : histogramme, à secteurs) en utilisant des outils de représentation (ex. : mise à l’échelle, légende, étiquettes de données).
 
 À REMETTRE
 ----------
