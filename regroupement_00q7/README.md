@@ -2,15 +2,15 @@ PARTIE A
 --------
 
 - [x] Créer une base de données contenant au minimum cinq tables, dont une table de liens (relation plusieurs à plusieurs). Chacune de ces tables devra contenir un nombre significatif d’enregistrements.
-- [x] Assurer la confidentialité, la disponibilité et l’intégrité des données en :  
-    - [x] Utilisant des contraintes d’intégrité référentielles;
-    - [x] Gérant des autorisations;
-    - [x] Utilisant une technique de sauvegarde et de restauration de données.
+- [x] Assurer la confidentialité, la disponibilité et l’intégrité des données en :
+  - [x] Utilisant des contraintes d’intégrité référentielles;
+  - [x] Gérant des autorisations;
+  - [x] Utilisant une technique de sauvegarde et de restauration de données.
 - [x] Formuler des requêtes :
-    - [x] D’insertion, de modification et de suppression de données;  
-    - [x] De sélection (avec jointures sur un minimum de trois tables), incluant des expressions régulières. Les requêtes devront contenir plusieurs clauses (ex. : JOIN, GROUP BY, HAVING).
-    - [x] Automatiser l’un des traitements de données précédents à l’aide d’un script ou d’une procédure stockée.
-    
+  - [x] D’insertion, de modification et de suppression de données;
+  - [x] De sélection (avec jointures sur un minimum de trois tables), incluant des expressions régulières. Les requêtes devront contenir plusieurs clauses (ex. : JOIN, GROUP BY, HAVING).
+  - [x] Automatiser l’un des traitements de données précédents à l’aide d’un script ou d’une procédure stockée.
+
 PARTIE B
 --------
 
@@ -24,9 +24,9 @@ PARTIE B
 
 - [ ] Modèle de données
 - [ ] Scripts de création/gestion de la base de données incluant :
-    - [ ] Les tables et les relations
-    - [ ] Les contraintes d’intégrité référentielle
-    - [ ] Les autorisations
+  - [ ] Les tables et les relations
+  - [ ] Les contraintes d’intégrité référentielle
+  - [ ] Les autorisations
 - [ ] Requêtes d’insertion, de modification et de sélection
 - [ ] Script ou procédure stocké
 - [ ] Sauvegarde de la base de données (structure de la base de données et les données)
