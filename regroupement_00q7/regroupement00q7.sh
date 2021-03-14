@@ -61,7 +61,7 @@ else
       ;;
     add_data)
       echo "Adding demo data"
-      mysql -u "$username" -p < addDemoData.sql
+      mysql -u "$username" -p < data_demo/addDemoData.sql
       ;;
     dump)
       echo "Dumping DB"

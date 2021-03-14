@@ -22,7 +22,7 @@ PARTIE B
 À REMETTRE
 ----------
 
-- [ ] Modèle de données
+- [x] Modèle de données
 - [ ] Scripts de création/gestion de la base de données incluant :
     - [ ] Les tables et les relations
     - [ ] Les contraintes d’intégrité référentielle
