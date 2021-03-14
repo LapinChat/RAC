@@ -23,11 +23,11 @@ PARTIE B
 ----------
 
 - [x] Modèle de données
-- [ ] Scripts de création/gestion de la base de données incluant :
-    - [ ] Les tables et les relations
-    - [ ] Les contraintes d’intégrité référentielle
-    - [ ] Les autorisations
-- [ ] Requêtes d’insertion, de modification et de sélection
-- [ ] Script ou procédure stocké
-- [ ] Sauvegarde de la base de données (structure de la base de données et les données)
-- [ ] Rapport statistique créé avec le chiffrier électronique incluant l’analyse des résultats et le graphique. 
+- [x] Scripts de création/gestion de la base de données incluant :
+    - [x] Les tables et les relations
+    - [x] Les contraintes d’intégrité référentielle
+    - [x] Les autorisations
+- [x] Requêtes d’insertion, de modification et de sélection
+- [x] Script ou procédure stocké
+- [x] Sauvegarde de la base de données (structure de la base de données et les données)
+- [x] Rapport statistique créé avec le chiffrier électronique incluant l’analyse des résultats et le graphique. 
